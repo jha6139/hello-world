@@ -1,17 +1,130 @@
-* {
-  margin:0px;
-  padding:0px;
+#title {
+  background-color: #ff4c68;
+  color: white;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h2{
+  font-family: "Montserrat-Bold";
+    font-weight: 900;
+    font-size: 3.5rem;
+      line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* navigation Bar */
+/* this padding is used to keep brand name  i.e tindog in same line to h1 */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* space between link */
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+/* gives the distamce between button and h1 */
+.Download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* rotate image */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+}
+
+
+/* features section */
+.function {
+  font-family: "Montserrat=Black";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* icon color */
+.fas {
+  color: #ef1878;
+  margin-bottom: 1rem;
+
+}
+
+/* icon color change during hover */
+
+.fas:hover{
+  color:#ff4c68;
+}
+
+.function-intro {
+  color: #8f8f8f;
+}
+
+/* this padding is space between features and its upper section */
+#features{
+    padding: 7% 15%;
+}
+
+/* below padding is used to spaces between each para or features  */
+.para{
+  text-align: center;
+  padding: 2.5%;
+}
+
+
+/* testimonials section */
+#testimonials{
+
+  text-align: center;
+  background-color:  #ef1872;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:2%;
+}
+#press{
+  background-color:  #ef1872;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 2% 3% 5%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing  section*/
+/* card */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.column{
+  padding: 3% 2%;
 }
